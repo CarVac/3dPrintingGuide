@@ -25,6 +25,8 @@ The top surface must stay flat to within a small fraction of the intended layer 
 If you have a small printer (<180mm square, perhaps) with a relatively thick bed, this can work fine as distortions are kept to a minimum.
 But with a larger bed you can end up with a significantly high or low center, or a saddle-shape.
 
+It is possible to manually perform mesh bed level measurements to compensate for beds that aren't flat, but this is tedious and less consistent, and can't account for changes in bed shape over time.
+
 ## Extending touch probes
 
 The best known extending touch probe is the BLTouch, but there are several clones such as the CR Touch available.
