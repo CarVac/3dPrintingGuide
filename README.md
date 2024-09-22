@@ -14,7 +14,7 @@ Stepper Motors (inertia, torque curves, temperature, resistance/inductance, 0.9 
 
 Drive Mechanisms (belts, leadscrews, ballscrews)
 
-# Where the Plastic hits the Plate
+# Where the Plastic Hits the Plate
 
 Filament extrusion overview
 
@@ -28,7 +28,7 @@ Nozzles (materials, coatings, form factor, high flow geometries)
 
 Part cooling
 
-Bed surfaces and surface treatments
+Beds (surfaces and surface treatments)
 
 # Structure
 
@@ -51,6 +51,8 @@ Toolhead Boards
 Limit Switches
 
 Bed Level Sensors
+
+Bed Heaters
 
 Chamber Heaters
 
