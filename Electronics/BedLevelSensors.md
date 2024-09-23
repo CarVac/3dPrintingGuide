@@ -116,6 +116,8 @@ The signal to noise ratio is stronger from bed probing but for printers with bed
 
 This eliminates z-offset calibration, but like all nozzle probing it is vulnerable to solidified nozzle ooze.
 
+They also may have limited chamber temperature compatibility, though PZ Probe goes to 75C which is solid.
+
 ## Rail mount toolhead nozzle probing
 
 Commonly known as TAP for Voron printers, this mounts the entire toolhead on a very short Z-oriented linear rail.
@@ -123,6 +125,8 @@ Commonly known as TAP for Voron printers, this mounts the entire toolhead on a v
 When the nozzle contacts the bed, the whole toolhead mass rests on the bed and the carriage slides until a switch is actuated.
 
 This has the disadvantage of decreasing motion system rigidity and applying much greater forces on the nozzle tip and bed, increasing the chance of damage.
+
+Do not use this if one of the other nozzle probe options is available to you.
 
 # Recommendations
 
