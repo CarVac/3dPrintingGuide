@@ -126,7 +126,7 @@ This has the disadvantage of decreasing motion system rigidity and applying much
 
 # Recommendations
 
-For room temperature printers that will be printing with a limited range of nozzle temperatures, a BLTouch is generally okay on a budget.
+For room temperature printers that will be printing with a limited range of nozzle temperatures, a BLTouch is generally good on a budget and easy to integrate.
 
 At higher temperatures, a dockable probe is an economical option.
 
