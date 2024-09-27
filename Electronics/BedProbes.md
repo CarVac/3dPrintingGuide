@@ -20,6 +20,8 @@ Bed tramming can be done manually, on machines without the ability to control th
 
 On many machines, this is done by having the printer place the nozzle at each height-control screw and either visually or using feeler gages under the nozzle to check for equal nozzle height, adjusting the screws as needed.
 
+If you do have a bed probe, then you can simply tweak the bed tilt based on observing the recorded bed mesh values after mesh bed leveling.
+
 On smaller bedslingers, this often involves 3 or 4 adjustment screws on the bed carriage.
 
 Some commercial machines have triple Z leadscrews but no ability to automatically adjust them independently, requiring manual tramming again with three or four adjustment screws. Machines like this include Bambu Labs X1C.
