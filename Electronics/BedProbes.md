@@ -9,7 +9,7 @@ If the nozzle is unexpectedly low, the filament will bulge, causing the first la
 To correct for these errors, there are several steps that must be performed in order.
 
 1. Bed tramming: physically adjusting the bed to be as level as possible
-2. Mesh compensation: measuring a grid of points across the bed and correcting for measured height variations caused by bed curvature or motion system alignment or sagging.
+2. Bed mesh compensation: measuring a grid of points across the bed and correcting for measured height variations caused by bed curvature or motion system alignment or sagging.
 3. Z offset adjustment: correcting for the difference in height between the probe's trigger point and the nozzle
 
 # Bed Tramming
@@ -20,7 +20,7 @@ Bed tramming can be done manually, on machines without the ability to control th
 
 On many machines, this is done by having the printer place the nozzle at each height-control screw and either visually or using feeler gages under the nozzle to check for equal nozzle height, adjusting the screws as needed.
 
-If you do have a bed probe, then you can simply tweak the bed tilt based on observing the recorded bed mesh values after mesh bed leveling.
+If you do have a bed probe, then you can simply tweak the bed tilt based on observing the recorded bed mesh values after bed mesh compensation.
 
 On smaller bedslingers, this often involves 3 or 4 adjustment screws on the bed carriage.
 
@@ -50,7 +50,7 @@ These machines use four independent Z motors, one on each corner, and have sligh
 
 Similar to triple Z bed leveling, quad gantry leveling involves probing the bed height with the nozzle near the corners of the bed and adjusting the Z motors relative to each other until the measurements are all equal.
 
-# Mesh Leveling
+# Bed Mesh Compensation
 
 Once the bed is level, any error in flatness can only be compensated by making a grid of measurements across the bed and using these to adjust Z based on the X and Y coordinates.
 
