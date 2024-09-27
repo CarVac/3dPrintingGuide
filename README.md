@@ -50,7 +50,7 @@ Toolhead Boards
 
 Limit Switches
 
-[Bed Level Sensors](/Electronics/BedLevelSensors.md)
+[Bed Probes](/Electronics/BedProbes.md)
 
 Bed Heaters
 
