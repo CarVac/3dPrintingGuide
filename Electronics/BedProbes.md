@@ -215,6 +215,8 @@ If you care about speed of bed mesh measurement, an eddy current sensor is incre
 If you have a large bed, meshing on a normal sensor can take quite a long time so this can be very desirable.
 Beacon is the gold standard, good to high temperatures, but it's fairly expensive.
 
+For delta printers, use nozzle probing of one type or another, since X/Y sensor offsets cannot be compensated for.
+
 ---
 
 This work is licensed under Creative Commons Attribution-ShareAlike 4.0 International
