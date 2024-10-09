@@ -47,7 +47,7 @@ Reduction can be implemented via intermeediate closed loop belts with pulleys, o
 CoreXZ will be described in detail later, but it implements Z motion using belts and motors shared with the X axis, and simply makes do without gear reduction at all.
 
 Especially if there is no gear reduction, but even if there is, the z axis can fall under gravity.
-Some printers use counterweights, retracting keychain holders, or leaf springs to support the weight of the bed or gantry and prevent it from creeping downward.
+Some printers use counterweights, retracting keychain holders, or constant-force springs to support the weight of the bed or gantry and prevent it from creeping downward.
 
 ## Ballscrew Z
 
