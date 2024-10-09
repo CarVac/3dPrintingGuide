@@ -29,8 +29,10 @@ Acme threads are trapezoidal, which offer lower friction compared to triangular 
 Fewer starts gives more motion precision, but this limits the speed of Z motion, which can potentially take a while..
 If a leadscrew spins too fast, "centrifugal force" will cause unsupported lengths to bend and whip around wildly, potentially causing permanent damage.
 
-Leadscrews that aren't perfectly straight can cause artifacts, known as Z-banding, if the forces they apply to the nut deflect the carriage they are driving in the X/Y direction.
-This can be mitigated with an Oldham coupler at the expense of some backlash, a WobbleX which can correct for more axes of nut wobble motion with less backlash, or by using a separate carriage from the bed carriage to interface with the leadscrew.
+Leadscrews that aren't perfect can cause artifacts, known as Z-banding, if the nut is rigidly mounted.
+When the leadscrew axis tilts relative to the nut, it binds, affecting the layer uniformity.
+This can be mitigated with an Oldham coupler at the expense of some backlash, or a WobbleX which can correct for more axes of nut wobble motion with less backlash.
+It also be good to use a separate motion carriage from the bed carriage to decouple any forces.
 
 ## Belted Z
 
@@ -56,6 +58,8 @@ The larger diameter and greater precision makes them generally no problem for Z 
 They operate by having recirculating balls rolling in the nut instead of having sliding interfaces between the threads and the nut.
 
 The downside is that these are much more expensive than either normal leadscrews or belts.
+
+If you cheap out on ballscrews, though, they can be no better than ordinary leadscrews.
 
 # Z Motion Arrangements
 
@@ -199,7 +203,7 @@ For actuators, leadscrews are fine, but you need to be careful to decouple them 
 
 Belted Z is good, but you have to either balance the forces with a spring or gear them down strongly to avoid creeping when power is removed.
 
-Ballscrews are great but they're really expensive.
+Ballscrews can be great, but ones that are actually good are really expensive.
 Use these if you must have the best.
 
 On a bedslinger, use dual Z actuators, whether linked or independent.
