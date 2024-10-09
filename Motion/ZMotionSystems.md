@@ -162,6 +162,8 @@ Additionally, preload on kinematic mounts is important if you intend to have fas
 
 If the bed to linear guide connection is not a kinematic coupling, then it must be made compliant enough to overload the linear motion guides.
 
+Independent triple Z does need three separate Z motors and drivers, which adds to costs.
+
 ### Flying Gantry
 
 By fixing the bed to the bottom of the print chamber and moving the entire x/y gantry up and down, you can reduce the mass of the Z system.
