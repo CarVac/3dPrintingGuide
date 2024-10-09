@@ -66,6 +66,8 @@ The X gantry moves up and down, and the toolhead moves along the gantry.
 
 This reduces the amount of structure needed to build a printer, and simplifies Z.
 
+Kinematically, belt printers are bedslingers, and so this section applies to them as well.
+
 ### Single Z
 
 On cantilevered bedslingers where there is only one vertical column, a single Z motion system is the only choice for controlling the height of the X gantry.
@@ -111,17 +113,100 @@ It also has several disadvantages:
 
 ## Non-Bedslingers
 
+Printers that are not bedslingers either move their beds purely vertically, or move ther x/y motion systems vertically.
+This leads to an entirely different set of Z motion systems.
+
 ### Single Z Cantilevered
+
+The simplest way to drive a bed purely vertically is to support it from a drive system on only one side of the bed.
+
+This works very well for small beds but larger ones will shake up and down as the printer toolhead vibrates the machine, unless the cantilever and the linear guides it is built on are extremely rigid.
+
+Tramming (alignment to the x/y motion system) must be done manually.
 
 ### Dependent Double Z
 
+To reduce cantilever issues, some printers straddle the bed with a pair of Z drives linked together, usually a pair of leadscrews belted together.
+
+This is okay, but it also relies on the rigidity of the linear motion guides to prevent rocking in some circumstances.
+
+Bed tramming must be done manually.
+
 ### Dependent Triple Z
+
+Triple Z drives that are controlled as one are completely immune to bed tilting.
+These are often implemented with one motor driving three leadscrews through a belt.
+
+This provides excellent Z motion rigidity while keeping costs relatively low, but it still requires manual tramming.
 
 ### Independent Double Z
 
+Some printers use two Z leadscrews but drive them with two indepedendent motors to automatically tram in one axis.
+
+You still need linear motion rigidity in one direction to prevent rocking, but you need compliance in the other direction to prevent jamming.
+On top of that, you still need manual tramming in one axis, and it needs an additional motor and stepper driver.
+
+Why would you do this?
+Why wouldn't you just use dependent or independent triple Z?
+
+There are some questions we may never know the answers to.
+
 ### Independent Triple Z
 
+With three independent Z drives, bed tilt can be fully computer-controlled, eliminating the need for manual tramming with an appropriate bed probe.
+
+This specifically requires a compliant bed support mechanism, ideally a kinematic mount for the bed or a bedframe, but this comes with the risk of dropping the bed if the drives go significantly out of sync.
+
+If you do have a kinematic coupling (perfect constraints, fully flexible) between motion system and bed mount, make sure that the supports are not cantilevered too far out from the linear motion guides, to improve the rigidity of the system.
+Additionally, preload on kinematic mounts is important if you intend to have fast Z acceleration.
+
+If the bed to linear guide connection is not a kinematic coupling, then it must be made compliant enough to overload the linear motion guides.
+
 ### Flying Gantry
+
+By fixing the bed to the bottom of the print chamber and moving the entire x/y gantry up and down, you can reduce the mass of the Z system.
+The gantry in other sorts of printers would ordinarily require mechanical adjustment to ensure flatness, but with flying gantry, *Quad Gantry Leveling* can be employed to automatically ensure that the X/Y system is free of twist and is parallel to the bed.
+
+Compared to independent triple Z, this requires an additional motor and stepper driver, and resonances can change dramatically as the toolhead moves up and down in Z.
+Additionally, you really need to have a semi-compliant gantry structure, which sacrifices stiffness.
+Finally, you have to make your X/Y wiring is carefully routed to account for motion.
+
+These compromises are something worthwhile with large format (>500 mm on a side) printers, where bed plate weight can be immense and it is far easier to move the gantry.
+
+However, it also sees some use with smaller printers such as the Voron 2.4 and derivatives.
+
+Why?
+Maybe they just think the design is neat.
+
+It is neat, I guess.
+
+### Delta
+
+Delta kinematics are unique because with they are parallel manipulators, allowing both the bed and all of the motors to remain stationary, yet only requiring three motors for all of X, Y, and Z.
+
+This is potentially ideal for simple construction and fast printing.
+
+However, they have complex nonlinear interactions between each actuator's position and the toolhead position that must be calibrated, ideally with nozzle bed probing.
+This nonlinearity also results in non-uniform precision and motion capabilities across the build volume, which itself is not necessarily conveniently shaped.
+The Z axis shares its drive mechanisms with X and Y, so like CoreXZ you usually cannot fit multiple full steps per layer height, reducing Z precision.
+Additionally, if a stepper motor loses steps and moves afterwards, this can potentially cause damage to the mechanism by driving it into an improper configuration.
+
+# Recommendations
+
+For actuators, leadscrews are fine, but you need to be careful to decouple their issues.
+
+Belted Z is good, but you have to either balance the forces with a spring or gear them down strongly to avoid creeping when power is removed.
+
+Ballscrews are great but they're really expensive.
+Use these if you must have the best.
+
+On a bedslinger, use dual Z actuators, whether linked or independent.
+
+On non-bedslingers, just use triple Z, whether linked or independent.
+Anything else is silly.
+
+If you're making a delta printer, you're making a delta printer.
+There's no other Z motion to worry about.
 
 ---
 

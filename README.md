@@ -6,7 +6,7 @@ A (hopefully) up-to-date repository of best practices for FFF/FDM 3D printer des
 
 XY Motion Systems (CoreXY vs Bedslinger vs Delta vs Cross Gantry)
 
-Z Motion Systems (Cantilever, Dual/Triple Dependent, Dual/Triple Independent, Flying Gantry, bedslinger single/dual z, corexz
+[Z Motion Systems](/Motion/ZMotionSystems.md)
 
 Linear Guides (rails, rods, wheels)
 
