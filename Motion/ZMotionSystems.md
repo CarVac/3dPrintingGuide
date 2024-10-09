@@ -193,7 +193,7 @@ Additionally, if a stepper motor loses steps and moves afterwards, this can pote
 
 # Recommendations
 
-For actuators, leadscrews are fine, but you need to be careful to decouple their issues.
+For actuators, leadscrews are fine, but you need to be careful to decouple them properly to avoid banding issues.
 
 Belted Z is good, but you have to either balance the forces with a spring or gear them down strongly to avoid creeping when power is removed.
 
@@ -202,7 +202,8 @@ Use these if you must have the best.
 
 On a bedslinger, use dual Z actuators, whether linked or independent.
 
-On non-bedslingers, just use triple Z, whether linked or independent.
+On non-bedslingers, if your printer is small (say, 150mm bed or smaller), you can use a cantilevered bed with single Z, as long as you build it robustly.
+For any printers larger than that, just use triple Z, whether linked or independent.
 Anything else is silly.
 
 If you're making a delta printer, you're making a delta printer.
