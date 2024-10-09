@@ -203,8 +203,10 @@ Use these if you must have the best.
 On a bedslinger, use dual Z actuators, whether linked or independent.
 
 On non-bedslingers, if your printer is small (say, 150mm bed or smaller), you can use a cantilevered bed with single Z, as long as you build it robustly.
-For any printers larger than that, just use triple Z, whether linked or independent.
-Anything else is silly.
+For midsized printers, just use triple Z, whether linked or independent.
+For large printers, you should consider flying gantry.
+
+Most things should use triple Z with a moving bed.
 
 If you're making a delta printer, you're making a delta printer.
 There's no other Z motion to worry about.
