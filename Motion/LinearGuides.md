@@ -187,8 +187,12 @@ As performance goes up they are no longer cheaper than rails, and at the high en
 But rods do let you avoid overconstraints more easily.
 
 Rails are definitely the best, but not all rails are equal quality or equally good deals.
-Ask around for recommendation.
+Ask around for recommendations on where to buy, I can't possibly keep track of that here.
 If your design is particularly rigid, make sure there's enough adjustability to prevent binding.
+
+Common to all of these is that you really want to make sure forces are balanced to minimize moments.
+Put your belts in line with the driven mass when belts are moving things along the guide axes, and put the guides in line with the driven mass when moving things perpendicular to the guide axes.
+This will help minimize friction and wear.
 
 ---
 
