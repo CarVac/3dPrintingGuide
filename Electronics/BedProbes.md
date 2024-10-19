@@ -99,6 +99,8 @@ These can operate at higher temperatures than extending touch probes, and don't 
 
 However, since the dock must be located off the bed, dockable probes require extra travel beyond the printable area in order to function.
 
+Additionally, the microswitches used for these can wear out over time, resulting in inconsistent measurements.
+
 ## Inductive probes
 
 Inductive probes are on/off sensors that detect whether ferrous metal (in the case of printers, steel build plates) and only ferrous metal is within a certain distance of the end of the sensor.
@@ -210,6 +212,7 @@ These are vulnerable to hardened nozzle ooze, but with certain bed materials (pa
 For room temperature printers that will be printing with a limited range of nozzle temperatures, a BLTouch or similar is generally good on a budget and easy to integrate.
 
 For higher temperature use, a dockable probe is an economical option.
+But it can become less reliable with age, requiring replacement.
 
 If you care about speed of bed mesh measurement, an eddy current sensor is incredibly capable.
 If you have a large bed, meshing on a normal sensor can take quite a long time so this can be very desirable.
