@@ -2,6 +2,13 @@
 
 A (hopefully) up-to-date repository of best practices for FFF/FDM 3D printer design.
 
+Much of the written knowledge on the internet is either outdated, or locked up in videoes and chatrooms, or worse, both.
+
+I've absorbed a lot and I hope to convey as much of what I have learned as possible.
+
+There is a limit to the depth I will go into.
+To some extent once you are armed with the knowledge from here you should be better prepared to do your own research and know what the right questions are. But if you're working on esoteric motion systems or extreme high temperatures for exotic materials, you will need to do more work on your own.
+
 # Motion
 
 XY Motion Systems (CoreXY vs Bedslinger vs Delta vs Cross Gantry)
