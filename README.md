@@ -17,7 +17,7 @@ XY Motion Systems (CoreXY vs Bedslinger vs Delta vs Cross Gantry)
 
 [Linear Guides](/Motion/LinearGuides.md)
 
-Stepper Motors (inertia, torque curves, temperature, resistance/inductance, 0.9 vs 1.8 degree)
+[Stepper Motors](/Motion/StepperMotors.md)
 
 Drive Mechanisms (belts, leadscrews, ballscrews)
 
