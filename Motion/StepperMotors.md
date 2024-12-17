@@ -8,34 +8,11 @@ Here's what I think is important to keep in mind when selecting them and designi
 
 There are many types of stepper motors, but those used in 3D printing are almost all of one type: 2-phase bipolar hybrid.
 
-### Phase count
-
-Higher phase counts are smoother but more complicated to drive, and would cost more than two-phase motors.
-
-### Unipolar vs Bipolar
-
-Unipolar motors have twice the number of windings, each phase's two windings wound in opposite directions, but only half are used at a time, making them provide less torque for a given size motor.
-The separate windings for current in each direction can improve maximum speeds, though this is rarely relevant to us.
-
-Bipolar motors have a single winding for each phase, and current in that winding must be reversed to achieve the opposite polarity..
-This technically requires a more complex driving circuit (H-bridge topology), but that's not a big deal at all.
-
-### Magnetic configuration
-
-Permanent magnet stepper motors are basically AC synchronous motors with tightly spaced poles.
-These provide high torque and smooth control but have very coarse steps and don't work well at higher speeds.
-
-Variable-reluctance stepper motors use the tendency for soft magnetic material to be attracted to magnets by having ferromagnetic teeth on the rotor attracted to teeth on the electromagnetic stator.
-They are capable of high resolution in a small size but are lower torque and have strongly nonlinear attraction between rotor and stator teeth, causing vibrations.
-
-Hybrid stepper motors use toothed soft magnetic material in the rotors to increase resolution but also have a magnet to boost torque.
-They have high resolution like variable-reluctance and high torque like permanent magnet steppers, and have vibration characteristics in between the two.
-
 ## Construction
 
 Hybrid steppers are made of a stator housing surrounding a rotor.
 
-The rotor hase two banks of toothed wheels around an axially-oriented permanent magnet, with each side's wheel angularly offset by half a tooth pitch.
+The rotor hase banks of toothed wheels around an axially-oriented permanent magnet, with each pole's wheel angularly offset by half a tooth pitch.
 
 They are surrounded by toothed rotors with a slight tooth count mismatch such that when a stator phase's north pole's teeth are aligned with the rotor's south pole teeth and misaligned with the rotor's north pole teeth, while the stator phase's south pole is perfectly misaligned with the south pole rotor teeth and aligned with the rotor's north pole teeth.
 When one phase is aligned, the other is half-aligned in opposite directions on each side, allowing that to produce torque.
@@ -55,6 +32,22 @@ Larger motors generally have more torque, but have more resistance and inductanc
 
 Longer motors generally have more torque too, as well as more inertia.
 
+Motor inertia counts towards moving mass when you compute the amount of torque required to drive your gantry, which is bad.
+
+Additionally, if you have your motors mounted on moving parts of your gantry, then they straight up add mass there as well.
+
+## Shaft Size
+
+Many Nema 17 stepper motors use 5mm shafts with a flat cut in one side.
+
+When you just slap a timing belt pulley on them and tension it as a cantilever, that produces heavy bending stress in the shaft that can cause it to fatigue and snap off as the motor rotates.
+
+It's a bad idea to use more than 6mm wide GT2 belts in "single shear" cantilevered configuration.
+
+Lately (mid-late 2024), there have been more printers designed for motors with wider 8mm shafts without the flat for better strength, while also making the shafts longer so that the far side can be supported by a bearing ("double shear" configuration).
+
+This opens up the use of wider 9mm and 12mm belts, as well as GT3 belts that are stiffer but require very high tensions.
+
 ## Torque
 
 The very reason motors exist is to produce torque to move things around, so torque is important.
@@ -73,8 +66,8 @@ This correlates pretty well with low speed torque, at least up until the speed w
 
 ### Pull-In and Pull-Out Torque 
 
-Pull-Out Torque (I think it's pull-out) is the torque required to cause a motor to skip a step when rotating at any given speed.
-This is sually shown in the form of a graph.
+Pull-Out Torque is the torque required to cause a motor to skip a step when rotating at any given speed.
+This is usually shown in the form of a graph.
 
 This is the closest information to what you want to know when speccing out motors for a printer and calculating how much acceleration you can expect from it, but you have to realize that the test conditions (particularly the motor driver) are not going to be the same.
 
@@ -162,6 +155,9 @@ Some motors make lots of audible noise, and some motors are prone to making vibr
 I don't know what actually goes into mitigating noise and vibrations in the motors themselves, so suffice it to say: ask people about the motors you are planning on buying and get ones with a track record for being good.
 
 Or go out on a limb and try various ones yourself.
+
+Note that different printers behave differently with different motors.
+This depends on the belt lengths and belt stiffnesses.
 
 ## Heat Resistance and Dissipation
 
