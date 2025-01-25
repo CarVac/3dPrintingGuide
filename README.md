@@ -29,7 +29,7 @@ Extruders (single, dual gear, hob size, runout etc)
 
 Direct drive vs Bowden
 
-Hotends (heatbreak, meltzone, structural support)
+[Hotends](/Extrusion/Hotends.md)
 
 Nozzles (materials, coatings, form factor, high flow geometries)
 
