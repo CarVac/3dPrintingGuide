@@ -294,7 +294,8 @@ To improve the temperature uniformity across the heater block, reduce the power 
 On almost all hotends for sub-300°C temperatures, this is a "sock" made of silicone that tightly fits around the heater block and usually attempts to cover at least some of the nozzle.
 The lifespan of silicone is basically unlimited at lower temperatures, but it gradually degrades at temperatures approaching 300°C.
 
-For higher temperatures, the hotend can be wrapped in fiberglass or mineral wool and that can be secured with Kapton tape or silicone tubing.
+For higher temperatures, the hotend can be wrapped in fiberglass or mineral wool and that can be secured with Kapton or aluminum tape or silicone tubing.
+There is also premade fiberglass insulation tape that can work.
 
 Ultra high temperature hotends often have provisions for a low-conductivity draft shield made of stainless steel or (ideally) titanium. Chube, in particular, uses the titanium structural heatbreak as part of its draft shield.
 
