@@ -16,16 +16,16 @@ The following are common issues that occur in hotends.
 
 ## Heat Creep
 
-Heat creep occurs when filament is allowed to reach its softening temperature a long distance before reaching the heater block.
+Heat creep occurs when filament is allowed to reach its softening temperature before reaching the heatbreak.
 
 As it gets pressed from behind by the extruder, the softened filament bulges and jams against the walls of the filament path.
 No matter how hard it is pushed, flow will completely stop.
 
-Inexperienced 3D printer users might think this is a "clog", but it actually isn't at all related.
+Inexperienced 3D printer users might think this is a "nozzle clog", but it actually has nothing to do with an obstruction in the nozzle opening.
 
 Heat creep happens when the cold side isn't cooled well enough, or when the transition from cold to hot is too long and gradual.
 
-Other factors for heat creep that come from printer settings instead of physical configuration is that heat creep is often worse at low flow rates (when you'd expect backpressure to be lower) because the heat can diffuse upward into the filament more easily, and that it's worse at higher hotend temperatures (which you'd expect to reduce viscosity and thus backpressure) because the cold side near the heatbreak gets hotter.
+Other factors for heat creep that come from printer settings instead of physical configuration is that heat creep is often worse at low flow rates (when you'd expect backpressure to be lower) because the heat on the cold side gets more time to diffuse into the filament, and that it's worse at higher hotend temperatures (which you'd expect to reduce viscosity and thus backpressure) because the cold side near the heatbreak gets hotter.
 
 ## Leaks
 
@@ -36,6 +36,8 @@ When nozzles and heater blocks are made of materials with significantly differen
 
 Softer materials are easier to deform and create tight seals with, but they can also completely fail.
 You don't want to rip off a nozzle in your hotend.
+
+Make sure to use a torque wrench or torque screwdriver when tightening nozzles, as there can be a fine line between leaking from insufficient tightening, and damaging the heater block or nozzle.
 
 ## Poor Heating Control
 
@@ -233,6 +235,7 @@ Finally, coefficient of thermal expansion is important because it determines whe
 The three common materials in use are aluminum, copper, and non-stainless steel.
 
 Aluminum is inexpensive and lightweight with good thermal conductivity, but it has a low maximum service temperature, low hardness, and a high CTE of 23 microstrain per degree C.
+**Be careful when operating aluminum above 270°C, as its strength drops off dramatically and hot tightening at E3D's recommended torque specs (2 Nm) can strip the threads.**
 
 Copper has great thermal conductivity and enough maximum service temperature for any filament, but it has a high density, is expensive, and doesn't have great hardness.
 Its CTE is 17 microstrain per degree C, which is similar to that of brass nozzles and obviously the same as copper nozzles.
