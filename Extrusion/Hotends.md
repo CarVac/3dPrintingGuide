@@ -46,7 +46,7 @@ If the heater or temperature sensor (or both) is poorly coupled to the heater bl
 There are several aspects to this.
 
 If the coupling is bad, it can result in difficulty actually controlling the heater, resulting in fluctuations and overshoots which will lead to unpredictable results.
-Alternatively, if it's stable but the response time is poor enough, the response of the hotend to cooling air or filament flow can be delayed enough that changes in conditions cause temperature changes.
+Alternatively, if it's stable but the response time is poor enough, the response of the hotend to changing conditions such as cooling air or filament flow can be delayed enough to cause significant temperature excursions.
 
 The next aspect is that the thermistor location affects where the temperature is controlled.
 Some hotends have worse control of the final temperature when the measurement takes place at the top, due to the cooling environment being very different from the nozzle.
