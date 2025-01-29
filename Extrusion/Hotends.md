@@ -407,11 +407,11 @@ The heatbreak is placed in compression and the structural screws are in tension.
 
 ### Creality Unicorn nozzle
 
-This nozzle is like the Nextruder but uses a rigidly mounted heater block that the nozzle is snugly screwed into. 
+This nozzle is generally like the Prusa Nozzle but uses a rigidly mounted heater block that the nozzle is snugly screwed into. 
 
 ### QIDI Plus4 nozzle
 
-This nozzle is like the Nextruder but uses a rigidly mounted heater block that the nozzle is snugly screwed into. 
+This nozzle is generally like the Prusa Nozzle but uses a rigidly mounted heater block that the nozzle is snugly screwed into. 
 
 ## Integrated Heater Block
 
