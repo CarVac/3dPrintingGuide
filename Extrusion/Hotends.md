@@ -311,7 +311,7 @@ Volcano nozzles can be used in a V6 hotend with a nut to help heat transfer, tho
 #### Volcano-like
 
 Some manufacturers made similar nozzles to the volcano.
-Their hotends can fit volcano nozzles, though volcano hotends can't fit these nozzles.
+Their hotends can fit volcano nozzles, though there are compatibility issues around cooling ducts.
 The lengths are slightly longer so you may need to adjust part cooling ducts or bed leveling hardware if you want to use standard volcano nozzles.
 
 ##### Creality K1 Volcano-Like
