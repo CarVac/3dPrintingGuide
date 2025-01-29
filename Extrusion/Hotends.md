@@ -405,7 +405,7 @@ This is compatible with V6 heater blocks, just like Prusa.
 These nozzles thread into the heater block, which is loosely retained using two structural screws.
 The heatbreak is placed in compression and the structural screws are in tension.
 
-### Creality K1C nozzle
+### Creality Unicorn nozzle
 
 This nozzle is like the Nextruder but uses a rigidly mounted heater block that the nozzle is snugly screwed into. 
 
