@@ -411,7 +411,8 @@ This nozzle is generally like the Prusa Nozzle but uses a rigidly mounted heater
 
 ### QIDI Plus4 nozzle
 
-This nozzle is generally like the Prusa Nozzle but uses a rigidly mounted heater block that the nozzle is snugly screwed into. 
+This nozzle is generally like the Prusa Nozzle but uses a rigidly mounted heater block that the nozzle is snugly screwed into.
+It additionally uses a zirconia filament heatbreak to better prevent heat creep, taking advantage of the rigid heatblock mount.
 
 ## Integrated Heater Block
 
