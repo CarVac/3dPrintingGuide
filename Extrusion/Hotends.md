@@ -287,6 +287,17 @@ This sucks and is vulnerable to damage.
 
 Other than that, the two common sensor form factors are 3mm cylindrical and M3 thread-in sensors.
 
+## Sock/Draft Shield
+
+To improve the temperature uniformity across the heater block, reduce the power to maintain temperature, and reduce the cooling effect of part cooling air, heater blocks are usually covered with insulation.
+
+On almost all hotends for sub-300°C temperatures, this is a "sock" made of silicone that tightly fits around the heater block and usually attempts to cover at least some of the nozzle.
+The lifespan of silicone is basically unlimited at lower temperatures, but it gradually degrades at temperatures approaching 300°C.
+
+For higher temperatures, the hotend can be wrapped in fiberglass or mineral wool and that can be secured with Kapton tape or silicone tubing.
+
+Ultra high temperature hotends often have provisions for a low-conductivity draft shield made of stainless steel or (ideally) titanium. Chube, in particular, uses the titanium structural heatbreak as part of its draft shield.
+
 # Nozzle Compatibility
 
 You do want to make sure the nozzles you want exist in the form factor of your chosen hotend.
@@ -352,6 +363,14 @@ Mk8 hotends can usually function fine with a V6 nozzle, but V6 hotends cannot wo
 13mm overall length.
 5mm M6 threaded section to the back of the hex.
 8mm hex+tip length.
+
+## FIN
+
+A newer standard designed by Slice in collaboration with Bondtech and Micro-Swiss with a prescribed tip geometry to allow the hotend socks to cover most of the nozzle, reducing the unwanted nozzle cooling from part cooling fans.
+
+It also uses a shorter threaded section to reduce the effects of differential thermal expansion between nozzle and heater block.
+
+Not many hotends are available for it, but hopefully more are coming.
 
 ## And many others...
 
