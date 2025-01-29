@@ -204,9 +204,9 @@ They come in two varieties: planar and cylindrical.
 Cylindrical heaters were often used because they allow a simple round hotend that heats the filament from all sides, but due to thermal expansion issues they often have poor contact with the heater block and are relatively prone to failure.
 
 Planar heaters in the shape of a small rectangle are growing more common.
-They don't have contact issues due to the use of simple steel spring clips that hold them to the heater block.
+They don't have contact issues due to the use of simple steel spring clips that hold them to the heater block, allowing them to expand while still having a good thermal connection.
 
-These are harder to source and basically lock you in to a particular size, but the resulting hotends can be extremely small, which is helpful for very fast printing.
+Compared to cartridges, ceramic heaters are harder to source and basically lock you in to a particular size, but the resulting hotends can be extremely small, which is helpful for very fast printing.
 
 #### Nichrome or Kanthal Wire
 
