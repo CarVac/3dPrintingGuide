@@ -29,9 +29,6 @@ Eventually, as a nozzle gets oodles of filament squeezed through it and has its 
 
 This causes both orifice size to change and the tip flat to become worn.
 
-Interestingly, this happens both mechanically from abrasion and also chemically.
-PLA is polylactic *acid*, after all, and when printed, it's really hot acid!
-
 You can adjust for the different orifice diameter, but sometimes the wear on the flat is enough to cause unevenness that impacts prints.
 
 Choosing harder materials helps avoid this wear.
