@@ -87,4 +87,9 @@ Material switchers (MMU/AMS vs IDEX vs toolchanger)
 
 ---
 
+Creating this guide is a lot of work.
+If you'd like to show your support, feel free to leave me a tip at https://ko-fi.com/carvac
+
+No AI has been used in the creation of this guide.
+
 This work is licensed under Creative Commons Attribution-ShareAlike 4.0 International
