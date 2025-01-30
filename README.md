@@ -31,7 +31,7 @@ Direct drive vs Bowden
 
 [Hotends](/Extrusion/Hotends.md)
 
-Nozzles (materials, coatings, form factor, high flow geometries)
+[Nozzles](/Extrusion/Nozzles.md)
 
 Part cooling
 
