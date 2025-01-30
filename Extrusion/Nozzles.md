@@ -65,7 +65,7 @@ For entry level printing of abrasive filaments, a nozzle made of hardened tool s
 However, this has much lower thermal conductivity than brass, to a degree that significantly impacts printing.
 Even for non-abrasive filaments, hardened steel nozzles may need the hotend temperature set as much as 10-15 degrees C higher than for brass nozzles.
 
-It's wear-resistante, but not impervious to wear, so many people don't like solid steel nozzles.
+It's wear-resistant, but not impervious to wear, so many people don't like solid steel nozzles.
 
 #### Tungsten Carbide
 
