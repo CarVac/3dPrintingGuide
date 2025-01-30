@@ -47,7 +47,7 @@ The choice of nozzle material presents performance tradeoffs for printing.
 Brass nozzles are the cheapest you can get.
 Brass itself is inexpensive, is easy to machine, and has good thermal conductivity.
 Additionally, it has good thermal expansion matching with hotends that have copper heater blocks.
-However, it is prone to wear and not great at high temperatures above ???????????????????????????????????????? degrees C.
+However, it is prone to wear and not great at high temperatures above 300°C.
 
 That said, if your filament isn't abrasive, there's not too much reason to use any other materials.
 
