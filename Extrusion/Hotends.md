@@ -342,7 +342,7 @@ This is just like an E3D volcano but with a longer tip to provide room for bette
 23.5mm overall length.
 14.5mm from the back to the end of the M6 threads.
 16mm M6 threaded section to the back of the hex.
-8.5mm-ish hex+tip length.
+8.5mm hex+tip length.
 
 ### Supervolcano
 
