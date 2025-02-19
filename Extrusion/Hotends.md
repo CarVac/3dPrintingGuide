@@ -369,9 +369,14 @@ Mk8 hotends can usually function fine with a V6 nozzle, but V6 hotends cannot wo
 
 A newer standard designed by Slice in collaboration with Bondtech and Micro-Swiss with a prescribed tip geometry to allow the hotend socks to cover most of the nozzle, reducing the unwanted nozzle cooling from part cooling fans.
 
-It also uses a shorter threaded section to reduce the effects of differential thermal expansion between nozzle and heater block.
+It also uses a shorter, smaller-diameter threaded section to reduce the effects of differential thermal expansion between nozzle and heater block.
 
 Not many hotends are available for it, but hopefully more are coming.
+
+9.5mm overall length.
+4.4mm **M5×0.8** threaded portion goes into the heater block, with some clearance.
+5.1mm from the heater block to the tip.
+The hex has 150 degree conical surfaces to allow for firm contact with the silioone sock.
 
 ## And many others...
 
