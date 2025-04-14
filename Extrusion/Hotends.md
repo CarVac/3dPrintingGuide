@@ -18,7 +18,7 @@ Keep the following in mind when selecting hotends:
 * Avoid proprietary heater cartridges.
 * Avoid proprietary temperature sensor cartridges.
 * Avoid hotends that measure temperature far from the nozzle.
-* Avoid bad heatsinks.
+* Avoid hotends integrated into the extruder when working with elevated chamber temperatures.
 * Ensure that the materials used can withstand the temperatures you intend to print at.
 * Choose hotends that rigidly support the heater block.
 * Be aware of how your choice in hotend may limit what nozzles are available.
