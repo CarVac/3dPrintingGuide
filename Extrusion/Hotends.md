@@ -10,6 +10,19 @@ Ideally, hotends deliver uniform, constant-temperature liquid plastic to the noz
 
 I do not intend to recommend specific hotends, but to teach the basics for what to look for when selecting a hotend.
 
+# Summary
+
+Keep the following in mind when selecting hotends:
+
+* If you intend to print at high nozzle temperatures over 250°C, avoid PTC ceramic heaters due to reduced power at high temperatures.
+* Avoid proprietary heater cartridges.
+* Avoid proprietary temperature sensor cartridges.
+* Avoid hotends that measure temperature far from the nozzle.
+* Avoid bad heatsinks.
+* Ensure that the materials used can withstand the temperatures you intend to print at.
+* Choose hotends that rigidly support the heater block.
+* Be aware of how your choice in hotend may limit what nozzles are available.
+
 # Issues to Avoid
 
 The following are common issues that occur in hotends.
