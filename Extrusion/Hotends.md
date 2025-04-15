@@ -354,7 +354,6 @@ The lengths are slightly longer so you may need to adjust part cooling ducts or 
 This is just like an E3D volcano but with a longer tip to provide room for better airflow around the heater block.
 
 23.5mm overall length.
-14.5mm from the back to the end of the M6 threads.
 16mm M6 threaded section to the back of the hex.
 8.5mm hex+tip length.
 
@@ -390,7 +389,7 @@ Not many hotends are available for it, but hopefully more are coming.
 9.5mm overall length.
 4.4mm **M5×0.8** threaded portion goes into the heater block, with some clearance.
 5.1mm from the heater block to the tip.
-The hex has 150 degree conical surfaces to allow for firm contact with the silioone sock.
+The hex has 150 degree conical surfaces to allow for firm contact with the silicone sock.
 
 ## And many others...
 
