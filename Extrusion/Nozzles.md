@@ -165,7 +165,7 @@ The most comprehensive selection of nozzles is currently available in the V6, vo
 More proprietary shapes are usually only catered to by a handful of third-party manufacturers, if at all.
 The FIN standard is promising, but hasn't achieved wide adoption yet.
 
-See the nozzle compatibility section of the [hotend](/Hotends.md) document for more detail.
+See the [nozzle compatibility section of the hotend document](/Hotends.md#nozzle-compatibility) for more detail.
 
 ---
 
