@@ -311,7 +311,7 @@ The lifespan of silicone is basically unlimited at lower temperatures, but it gr
 For higher temperatures, the hotend can be wrapped in fiberglass or mineral wool and that can be secured with Kapton or aluminum tape or silicone tubing.
 There is also premade fiberglass insulation tape that can work.
 
-Ultra high temperature hotends often have provisions for a low-conductivity draft shield made of stainless steel or (ideally) titanium. Chube, in particular, uses the titanium structural heatbreak as part of its draft shield.
+Ultra high temperature hotends often have provisions for a low-conductivity draft shield made of stainless steel or (ideally) titanium. Chube, in particular, uses the titanium structural heatbreak as part of its draft shield along with a stainless steel formed plate.
 
 # Nozzle Compatibility
 
